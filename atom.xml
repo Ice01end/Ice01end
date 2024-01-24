@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ICEBERG&#39;s personal blog</title>
+  
+  <subtitle>ICEBERG</subtitle>
+  <link href="http://www.iceberg.love/atom.xml" rel="self"/>
+  
+  <link href="http://www.iceberg.love/"/>
+  <updated>2024-01-24T08:07:40.508Z</updated>
+  <id>http://www.iceberg.love/</id>
+  
+  <author>
+    <name>Ice</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>essay2</title>
+    <link href="http://www.iceberg.love/2024/01/24/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B8%B8%E8%A7%81%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
+    <id>http://www.iceberg.love/2024/01/24/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B8%B8%E8%A7%81%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</id>
+    <published>2024-01-23T20:44:09.000Z</published>
+    <updated>2024-01-24T08:07:40.508Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0x00渗透测试"><a href="#0x00渗透测试" class="headerlink" title="0x00渗透测试"></a>0x00渗透测试</h3><p>   为了证明网络防御按照预期计划正常运行而提供的一种机制，通常会邀请专业公司的攻击团队，按照一定的规则攻击既定目标，从而找出其中存在的漏洞或者其他安全隐患，并出具测试报告和整改建议。其目的在于不断提升系统的安全性。</p><h4 id="渗透测试常见名词解释"><a href="#渗透测试常见名词解释" class="headerlink" title="#渗透测试常见名词解释"></a>#渗透测试常见名词解释</h4><blockquote><ul><li>POC：全称 ‘ Proof of Concept ‘，中文 ‘ 概念验证 ‘ ，常指一段漏洞证明的代码。</li><li>EXP：全称 ‘ Exploit ‘，中文 ‘ 利用 ‘，指利用系统漏洞进行攻击的动作。</li><li>Payload：中文 ‘ 有效载荷 ‘，指成功exploit之后，真正在目标系统执行的代码或指令。</li><li>Shellcode：简单翻译 ‘ shell代码 ‘，是Payload的一种，由于其建立正向&#x2F;反向shell而得名。</li></ul></blockquote><blockquote><h4 id="Webshell"><a href="#Webshell" class="headerlink" title="Webshell"></a>Webshell</h4></blockquote><blockquote><p>​     Webshell就是以asp、php、jsp或者cgi等网页文件形式存在的一种命令执行环境，<br>​     也可以将其称做是一种网页后门，可以上传下载文件，查看数据库，执行任意程序命令等。</p></blockquote><blockquote><h4 id="防火墙"><a href="#防火墙" class="headerlink" title="防火墙"></a>防火墙</h4><p> 主要部署于不同网络或网络安全域之间的出口，通过监测、限制、更改跨越防火墙的数据流，<br> 尽可能地对外部屏蔽网络内部的信息、结构和运行状况，有选择地接受外部访问。</p><h4 id="内网"><a href="#内网" class="headerlink" title="内网"></a>内网</h4></blockquote><blockquote><p>通俗的讲就是局域网，比如网吧、校园网、公司内部网等都属于此类。</p></blockquote><blockquote><h4 id="外网"><a href="#外网" class="headerlink" title="外网"></a>外网</h4></blockquote><blockquote><p> 直接连入INTERNET（互连网），可以与互连网上的任意一台电脑互相访问</p></blockquote><blockquote><h4 id="渗透"><a href="#渗透" class="headerlink" title="渗透"></a>渗透</h4></blockquote><blockquote><p>  就是通过扫描检测你的网络设备及系统有没有安全漏洞，有的话就可能被入侵，就像一滴水透过一块有漏洞的木板，渗透成功就是系统被入侵。</p></blockquote><blockquote><h4 id="提权"><a href="#提权" class="headerlink" title="提权"></a>提权</h4></blockquote><blockquote><p>  指得到你本没得到的权限，比如说电脑中非系统管理员就无法访问一些C盘的东西，而系统管理员就可以，通过一定的手段让普通用户提升成为管理员，让其拥有管理员的权限，这就叫提权。</p></blockquote><blockquote><h4 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h4></blockquote><blockquote><p>  这是一种形象的比喻，入侵者在利用某些方法成功的控制了目标主机后，可以在对方的系统中植入特定的程序，或者是修改某些设置，用于访问、查看或者控制这台主机。<br>  这些改动表面上是很难被察觉的，就好象是入侵者偷偷的配了一把主人房间的钥匙，或者在不起眼处修了一条按到，可以方便自身随意进出。<br>  通常大多数木马程序都可以被入侵者用于创建后门（BackDoor）。</p><p>  网页后门就是webshell,统称为后门</p></blockquote><blockquote><h4 id="黑白盒测试"><a href="#黑白盒测试" class="headerlink" title="黑白盒测试"></a>黑白盒测试</h4></blockquote><blockquote><p>  黑盒测试是一种不考虑程序内部结构和逻辑的测试方法，只根据程序的功能需求和规格说明来设计测试用例和检查测试结果。黑盒测试又称为功能测试或数据驱动测试，它主要关注程序的外部表现和输入输出关系;白盒测试是一种通过分析程序内部结构和逻辑的测试方法，根据程序的代码和流程来设计测试用例和检查测试结果。白盒测试又称为结构测试或逻辑驱动测试，它主要关注程序的内部工作和路径覆盖.黑盒测试针对的是程序的功能，白盒测试针对的是程序的代码。</p></blockquote><p><strong>简单来说黑盒测试：没有源代码，只有一个目标，什么情况不知道;白盒测试，知道一定情况，有什么代码，服务器上有什么东西等等。</strong></p><blockquote><h4 id="跳板"><a href="#跳板" class="headerlink" title="跳板"></a>跳板</h4></blockquote><blockquote><p> 一个具有辅助作用的机器，利用这个主机作为一个间接工具，来入侵其他主机，一般和肉鸡连用。</p></blockquote><h4 id="反弹"><a href="#反弹" class="headerlink" title="反弹"></a>反弹</h4><blockquote><p>  将权限的反弹值回来，假如在webshell上操作，可以将权限移交到其他服务器上。将权限反弹到其他地方去，其他地方再来控制</p></blockquote><h4 id="撞库"><a href="#撞库" class="headerlink" title="撞库"></a>撞库</h4><blockquote><p>撞库是一种黑客攻击方法，它利用互联网上已经泄露的用户名和密码，尝试批量登录其他网站，从而盗取用户的账号和信息。撞库的原理是，很多用户在不同网站上使用相同或类似的密码，因此黑客可以通过获取用户在一个网站上的账号密码，去其他网站进行尝试，如果成功登录，就可以控制用户的账号</p></blockquote><p>​     </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0x00渗透测试&quot;&gt;&lt;a href=&quot;#0x00渗透测试&quot; class=&quot;headerlink&quot; title=&quot;0x00渗透测试&quot;&gt;&lt;/a&gt;0x00渗透测试&lt;/h3&gt;&lt;p&gt;   为了证明网络防御按照预期计划正常运行而提供的一种机制，通常会邀请专业公司的攻击团队，按</summary>
+      
+    
+    
+    
+    
+    <category term="渗透测试" scheme="http://www.iceberg.love/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>essay1</title>
+    <link href="http://www.iceberg.love/2024/01/08/essay1/"/>
+    <id>http://www.iceberg.love/2024/01/08/essay1/</id>
+    <published>2024-01-07T20:44:09.000Z</published>
+    <updated>2024-01-07T20:45:39.344Z</updated>
+    
+    <content type="html"><![CDATA[<p>于常态中藏锋无敌，于风光旖旎中省身自知</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;于常态中藏锋无敌，于风光旖旎中省身自知&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
