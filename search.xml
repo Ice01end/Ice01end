@@ -73,4 +73,19 @@
         <tag>渗透测试</tag>
       </tags>
   </entry>
+  <entry>
+    <title>essay3</title>
+    <url>/2024/01/30/essay3/</url>
+    <content><![CDATA[<h2 id="WEB应用环境架构类"><a href="#WEB应用环境架构类" class="headerlink" title="WEB应用环境架构类:"></a>WEB应用环境架构类:</h2><h4 id="开发语言，源码，中间件容器，数据库类型，服务器操作系统，第三方软件等"><a href="#开发语言，源码，中间件容器，数据库类型，服务器操作系统，第三方软件等" class="headerlink" title="开发语言，源码，中间件容器，数据库类型，服务器操作系统，第三方软件等"></a>开发语言，源码，中间件容器，数据库类型，服务器操作系统，第三方软件等</h4><p>开发语言：asp,php,aspx,jsp,java,python,ruby,go,html,javascript等</p>
+<p>源码：根据开发语言分类；应用类型分类；开源CMS分类；开发框架分类等</p>
+<p>中间件容器：IIS,Apache,Nginx,Tomcat,Weblogic,Jboos,glasshfish等</p>
+<p>数据库类型:Mysql，Access,Mssql,Oracle,db2,Sybase,Redis,MongDB等</p>
+<p>服务器操作系统:Windows,Linux,Mac等</p>
+<p>第三方软件:phpmyadmin,vs-ftpd,VNC,ELK,Openssh等</p>
+<h2 id="WEB应用安全漏洞分类"><a href="#WEB应用安全漏洞分类" class="headerlink" title="WEB应用安全漏洞分类"></a>WEB应用安全漏洞分类</h2><p>SQL注入，RCE执行，文件安全，XSS跨站，CSRF&#x2F;SSRF&#x2F;CRLF,反序列化，逻辑越权，未授权访问，XXE&#x2F;XML，弱口令等</p>
+]]></content>
+      <tags>
+        <tag>web应用安全漏洞分类&amp;WEB应用环境架构</tag>
+      </tags>
+  </entry>
 </search>
